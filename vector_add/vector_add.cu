@@ -21,7 +21,7 @@ int main(){
     b   = (float*)malloc(sizeof(float) * N);
     out = (float*)malloc(sizeof(float) * N);
 
-     //vectorの初期化
+    //vectorの初期化
     for(int i = 0; i < N; i++){
         a[i] = 1.0f;
         b[i] = 2.0f;
